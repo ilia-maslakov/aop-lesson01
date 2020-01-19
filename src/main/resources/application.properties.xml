@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="T1000"
+		class="sut.ism81z.maslakoviv.lesson01.T1000">
+		<property name="head" ref="JapanHead"/>
+
+	</bean>
+	<bean id="JapanHead" class="sut.ism81z.maslakoviv.lesson01.JapanHead"/>
+	<bean id="RussianHead" class="sut.ism81z.maslakoviv.lesson01.RussianHead"/>
+</beans>
